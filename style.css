@@ -1,6 +1,5 @@
 #everything {
     display: flex;
-    flex-flow: column;
     justify-content: center;
     background-color: rgb(166, 166, 248);
 }
@@ -9,14 +8,26 @@
 }
 
 #lower {
-        display: flex;
-        background-color: burlywood;
-        height: 300px;
+    display: flex;
+    flex-flow: column;
+    background-color: burlywood;
+    height: 400px;
+    padding-left: 20px;
+    justify-content: space-around;
 }
 
 .textintro {
     display: flex;
-    height: 300px;
+    flex-flow: column;
+    justify-content: initial;
     background-color: beige;
-    align-items: center;
+    padding-top: 150px;
+    padding-right: 75px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
 }
