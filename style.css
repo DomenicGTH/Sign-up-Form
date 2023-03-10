@@ -1,0 +1,22 @@
+#everything {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color: rgb(166, 166, 248);
+}
+.image {
+    width: 450px;
+}
+
+#lower {
+        display: flex;
+        background-color: burlywood;
+        height: 300px;
+}
+
+.textintro {
+    display: flex;
+    height: 300px;
+    background-color: beige;
+    align-items: center;
+}
