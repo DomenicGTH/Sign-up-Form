@@ -1,10 +1,14 @@
+html,body {
+    margin: 0;
+}
+
 #everything {
     display: flex;
     justify-content: center;
     background-color: rgb(166, 166, 248);
 }
 .image {
-    width: 450px;
+    width: 600px;
 }
 
 #lower {
@@ -13,7 +17,6 @@
     background-color: burlywood;
     height: 400px;
     padding-left: 20px;
-    justify-content: space-around;
 }
 
 .textintro {
@@ -30,4 +33,48 @@
 .button {
     width: 150px;
     height: 50px;
+}
+
+.signup {
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+h2 {
+    padding-bottom: 75px;
+}
+
+/* input,label {
+} */
+
+form {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 10px;
+}
+
+.userinput {
+    display: grid;
+    justify-content: flex-start;
+}
+
+.textbox {
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: 0px;
+    text-align: center;
+}
+
+.foreground {
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    margin: 100px 0px 0px 0px;
+    padding: 10px 250px;
+    background-color: rgb(202, 44, 75, .5);
+}
+
+.images {
+    display: flex
 }

@@ -8,7 +8,11 @@
     <title>Document</title>
   </head>
   <div id="everything">
-    <img class="image" src="img/photo-1585202900154-cf66e657d8d6.avif" />
+    <div class="images">
+      <img class="image" src="img/photo-1585202900154-cf66e657d8d6.avif" />
+      <img class="foreground"
+      src="img/d5xkdzh-18b91b4e-8631-411f-a65b-b8eee3af5501.png"
+    </div>
     <div id="textcontent">
       <div class="textintro">
         <p>
@@ -21,20 +25,49 @@
       </div>
       <div id="lower">
         <h2>Let's do this</h2>
-        <form action="#" method="get">
-          <label for="first_name">First Name:</label>
-          <input type="text" id="first_name" />
-          <label for="last_name">Last Name:</label>
-          <input type="text" id="last_name" />
-          <label for="email">Email:</label>
-          <input type="email" id="user_email" name="email" />
-          <label for="phone_num">Phone Number:</label>
-          <input type="number" id="num" />
-          <label for="password">Password:</label>
-          <input type="password" id="user_pass" name="password" />
-          <label for="password">Confirm Password:</label>
-          <input type="password" id="user_pass" name="password" />
-        </form>
+        <div class="inputbox">
+          <form action="#" method="get">
+            <div class="userinput">
+              <label for="first_name">First Name:</label>
+              <input type="text" id="first_name" class="textbox" />
+            </div>
+            <div class="userinput">
+              <label for="last_name">Last Name:</label>
+              <input type="text" id="last_name" class="textbox" />
+            </div>
+            <div class="userinput">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="user_email"
+                name="email"
+                class="textbox"
+              />
+            </div>
+            <div class="userinput">
+              <label for="phone_num">Phone Number:</label>
+              <input type="number" id="num" class="textbox" />
+            </div>
+            <div class="userinput">
+              <label for="password">Password:</label>
+              <input
+                type="password"
+                id="user_pass"
+                name="password"
+                class="textbox"
+              />
+            </div>
+            <div class="userinput">
+              <label for="password">Confirm Password:</label>
+              <input
+                type="password"
+                id="user_pass"
+                name="password"
+                class="textbox"
+              />
+            </div>
+          </form>
+        </div>
       </div>
       <div class="signup">
         <button class="button">Create Account</button>
