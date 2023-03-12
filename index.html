@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <div id="everything">
@@ -24,16 +28,29 @@
         <p>You know you want to.</p>
       </div>
       <div id="lower">
-        <h2>Let's do this</h2>
+        <h2>Let's do this!</h2>
         <div class="inputbox">
           <form action="#" method="get">
             <div class="userinput">
               <label for="first_name">First Name:</label>
-              <input type="text" id="first_name" class="textbox" />
+              <input
+                type="text"
+                id="first_name"
+                class="textbox"
+                minlength="1"
+                placeholder="Bob"
+                required
+              />
             </div>
             <div class="userinput">
               <label for="last_name">Last Name:</label>
-              <input type="text" id="last_name" class="textbox" />
+              <input
+                type="text"
+                id="last_name"
+                class="textbox"
+                minlength="1"
+                placeholder="Smith"
+              />
             </div>
             <div class="userinput">
               <label for="email">Email:</label>
@@ -42,6 +59,8 @@
                 id="user_email"
                 name="email"
                 class="textbox"
+                required
+                placeholder="example@example.com"
               />
             </div>
             <div class="userinput">
@@ -55,6 +74,7 @@
                 id="user_pass"
                 name="password"
                 class="textbox"
+                required
               />
             </div>
             <div class="userinput">
@@ -64,14 +84,16 @@
                 id="user_pass"
                 name="password"
                 class="textbox"
+                required
               />
             </div>
-          </form>
+          <!-- </form> -->
         </div>
       </div>
       <div class="signup">
-        <button class="button">Create Account</button>
-        <p>Already have an account? <a href="index.html">Log in</a></p>
+        <button type="submit" class="button">Create Account</button>
+      </form>
+        <p>Already have an account? <a href="index.html">Log in.</a></p>
       </div>
     </div>
   </div>

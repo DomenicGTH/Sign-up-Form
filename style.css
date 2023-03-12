@@ -14,30 +14,37 @@ html,body {
 #lower {
     display: flex;
     flex-flow: column;
-    background-color: burlywood;
+    background-color:#d9d9d9;
     height: 400px;
-    padding-left: 20px;
+    padding-left: 50px;
+    font-family:'Tilt Warp' , sans-serif;
+    font-size: 24px;
+    padding-bottom: 20px;
+
 }
 
 .textintro {
     display: flex;
     flex-flow: column;
     justify-content: initial;
-    background-color: beige;
-    padding-top: 150px;
+    background-color: #f2f2f2;
+    padding-top: 115px;
     padding-right: 75px;
-    padding-left: 20px;
+    padding-left: 50px;
     padding-bottom: 20px;
-}
-
-.button {
-    width: 150px;
-    height: 50px;
+    font-family:'Tilt Warp' , sans-serif;
+    font-size: 24px;
 }
 
 .signup {
-    padding-left: 20px;
+    padding-left: 50px;
     padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-flow: column;
+    font-family: 'Tilt Warp' , sans-serif;
+    font-size: 20px;
+    background-color: #f1f1f1;
 }
 
 h2 {
@@ -51,6 +58,20 @@ form {
     display: grid;
     grid-template-columns: 400px 400px;
     gap: 10px;
+    font-size: 20px;
+    
+}
+
+input:focus {
+    border-color: rgb(154, 255, 255);
+    border-width: 5px;
+    box-shadow: #d9d9d9;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 
 .userinput {
@@ -76,5 +97,16 @@ form {
 }
 
 .images {
-    display: flex
+    display: flex;
+    
+}
+
+.button {
+    height: 50px;
+    border-radius: 10px;
+    width: 200px;
+    border-width: 2px;
+    font-family: inherit;
+    font-size: 20px;
+    background-color: #aac3ac;
 }
