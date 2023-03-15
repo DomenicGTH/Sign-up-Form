@@ -1,5 +1,6 @@
 html,body {
     margin: 0;
+    height: 100%;
 }
 
 input {
@@ -13,6 +14,7 @@ input {
 }
 .image {
     width: 600px;
+    height: 100%;
 }
 
 #lower {
