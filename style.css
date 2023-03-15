@@ -19,12 +19,14 @@ input {
     display: flex;
     flex-flow: column;
     background-color:#d9d9d9;
-    height: 400px;
-    padding-left: 50px;
+    height: calc(100 / 3);
     font-family:'Tilt Warp' , sans-serif;
     font-size: 24px;
-    padding-bottom: 20px;
+}
 
+.lowercont {
+    padding-bottom: 20px;
+    padding-left: 50px;
 }
 
 .textintro {
@@ -32,23 +34,31 @@ input {
     flex-flow: column;
     justify-content: initial;
     background-color: #f2f2f2;
+    font-family:'Tilt Warp' , sans-serif;
+    font-size: 24px;
+    height: calc(100 / 3);
+}
+
+.introcont {
     padding-top: 115px;
     padding-right: 75px;
     padding-left: 50px;
     padding-bottom: 20px;
-    font-family:'Tilt Warp' , sans-serif;
-    font-size: 24px;
 }
 
 .signup {
-    padding-left: 50px;
-    padding-top: 50px;
-    padding-bottom: 100px;
     display: flex;
     flex-flow: column;
     font-family: 'Tilt Warp' , sans-serif;
     font-size: 20px;
     background-color: #f1f1f1;
+    height: calc(100 / 3);
+}
+
+.signcont {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 h2 {
